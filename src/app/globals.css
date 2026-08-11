@@ -16,18 +16,38 @@
 
   --animate-fade-in-up: fade-in-up 0.8s ease-out forwards;
 
-  @keyframes fade-in-up {
-    0% {
-      opacity: 0;
-      transform: translateY(20px);
+  /* Animaciones para el efecto Aurora / Glow */
+  --animate-aurora: aurora 15s ease-in-out infinite alternate;
+  --animate-aurora-reverse: aurora-reverse 20s ease-in-out infinite alternate;
+
+    @keyframes aurora {
+      0% {
+        transform: translate(0%, 0%) scale(1);
+      }
+      100% {
+        transform: translate(10%, 15%) scale(1.2);
+      }
     }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
+
+    @keyframes aurora-reverse {
+      0% {
+        transform: translate(0%, 0%) scale(1.2);
+      }
+      100% {
+        transform: translate(-10%, -15%) scale(1);
+      }
+    }
+    @keyframes fade-in-up {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   }
-}
-
 /* 
   Limpiamos los fondos raros y aplicamos el fondo neutro de la UAP por defecto
 */

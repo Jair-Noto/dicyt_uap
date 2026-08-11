@@ -27,16 +27,36 @@ export const Hero = () => {
   }, []);
 
   return (
-    <section className="relative overflow-hidden bg-[#0A1F5C]">
+    <section className="relative overflow-hidden bg-[#0A1F5C]">{/* ── VIDEO DE FONDO ── */}
+      {/* El video se reproduce en bucle, sin sonido, y cubre todo el fondo */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-luminosity z-0 pointer-events-none"
+      >
+        <source src="/videos/hero-bg.mp4" type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-[#0A1F5C]/40 z-0" />
+
       {/* Background Patterns */}
+      {/* ── EFECTO AURORA / GLOW ANIMADO ── */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* Orbe Rojo Institucional (Arriba Derecha) */}
+        <div className="absolute -top-[20%] -right-[10%] w-[60%] h-[70%] rounded-full bg-[#C8102E]/30 blur-[140px] animate-aurora mix-blend-screen" />
+        
+        {/* Orbe Azul Claro / Cyan (Abajo Izquierda) */}
+        <div className="absolute -bottom-[20%] -left-[10%] w-[50%] h-[80%] rounded-full bg-[#1e73be]/30 blur-[140px] animate-aurora-reverse mix-blend-screen" />
+      </div>
+      
       <div
-        className="absolute inset-0 opacity-10"
+        className="absolute inset-0 opacity-[0.03] pointer-events-none"
         style={{
-          backgroundImage: `repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(255,255,255,0.3) 39px, rgba(255,255,255,0.3) 40px),
-            repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(255,255,255,0.3) 39px, rgba(255,255,255,0.3) 40px)`,
+          backgroundImage: `repeating-linear-gradient(0deg, transparent, transparent 39px, rgba(255,255,255,1) 39px, rgba(255,255,255,1) 40px),
+            repeating-linear-gradient(90deg, transparent, transparent 39px, rgba(255,255,255,1) 39px, rgba(255,255,255,1) 40px)`,
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-br from-[#0A1F5C] via-[#0A1F5C]/90 to-[#060F2E]" />
 
       {/* Red accent bar */}
       <div className="absolute top-0 right-0 w-1 h-full bg-[#C8102E]" />
