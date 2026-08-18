@@ -8,7 +8,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2026,
     pages: 350,
-    cover: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop',
+    cover: '/images/libro.png', // Reemplazar luego con portada real
     category: 'Gobernanza',
     downloadLink: 'https://www.editoracientifica.com.br/books/gobernanza-justicia-y-desarrollo-en-territorios-amazonicos-estudios-multidisciplinarios-desde-la-universidad-amazonica-de-pando'
   },
@@ -17,7 +17,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2026,
     pages: 280,
-    cover: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=600&auto=format&fit=crop',
+    cover: '/images/socioeconomia.png',
     category: 'Socioeconomía',
     downloadLink: 'https://www.editoracientifica.com.br/books/dinamicas-socioambientales-legales-y-economicas-en-la-triple-frontera-madre-de-dios-peru-acre-brasil-y-pando-bolivia'
   },
@@ -26,7 +26,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2026,
     pages: 410,
-    cover: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop',
+    cover: '/images/medioambiente.png',
     category: 'Medio Ambiente',
     downloadLink: 'https://www.editoracientifica.com.br/books/bosque-amazonico-en-la-encrucijada-del-siglo-xxi-crisis-climatica-gobernanza-crimen-ambiental-y-tecnologias-para-el-futuro'
   },
@@ -35,7 +35,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2025,
     pages: 320,
-    cover: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=600&auto=format&fit=crop',
+    cover: '/images/biodiversidad.png',
     category: 'Biodiversidad',
     downloadLink: 'https://www.editoracientifica.com.br/books/desarrollo-sostenible-y-biodiversidad-en-pando-estudios-sobre-euterpe-precatoria-mart-agricultura-y-socioeconomia'
   },
@@ -44,7 +44,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2024,
     pages: 245,
-    cover: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=600&auto=format&fit=crop',
+    cover: '/images/derecho.png',
     category: 'Derecho y Educación',
     downloadLink: 'https://www.editoracientifica.com.br/books/visiones-contemporaneas-derecho-educacion-e-investigacion'
   },
@@ -53,7 +53,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2024,
     pages: 310,
-    cover: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=600&auto=format&fit=crop',
+    cover: '/images/ingenieria.png',
     category: 'Ingeniería',
     downloadLink: 'https://www.editoracientifica.com.br/books/ingenieria-y-tecnologia-aportes-y-avances-en-los-ultimos-tempos'
   },
@@ -62,7 +62,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2023,
     pages: 290,
-    cover: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=600&auto=format&fit=crop',
+    cover: '/images/medioambiente_1.png',
     category: 'Medio Ambiente',
     downloadLink: 'https://www.editoracientifica.com.br/books/isbn/978-65-5360-307-3'
   },
@@ -71,7 +71,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2023,
     pages: 275,
-    cover: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=600&auto=format&fit=crop',
+    cover: '/images/salud.png',
     category: 'Salud',
     downloadLink: 'https://www.editoracientifica.com.br/books/de-la-teoria-a-la-practica-experiencias-y-aplicaciones-en-salud'
   },
@@ -80,7 +80,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2023,
     pages: 330,
-    cover: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=600&auto=format&fit=crop',
+    cover: '/images/economia.png',
     category: 'Economía',
     downloadLink: 'https://www.editoracientifica.com.br/books/isbn/978-65-5360-306-6'
   }
@@ -99,7 +99,7 @@ export default function LibrosPage() {
             Repositorio Bibliográfico
           </span>
           <h1 style={{ fontFamily: "'Lora', Georgia, serif" }} className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight">
-            Libros y Monografías
+            Libros y Volumenes Académicos
           </h1>
           <p className="text-blue-100/80 max-w-2xl mx-auto text-lg">
             Colección de estudios multidisciplinarios, avances y aportes científicos de nuestra comunidad académica.

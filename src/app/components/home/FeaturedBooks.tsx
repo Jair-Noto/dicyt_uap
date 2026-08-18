@@ -9,7 +9,7 @@ const FEATURED_BOOKS = [
     author: 'Universidad Amazónica de Pando', // Ajustar con el organizador real
     year: 2026,
     pages: 350, // Dato temporal
-    cover: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=600&auto=format&fit=crop', // Reemplazar luego con portada real
+    cover: '/images/libro.png', // Reemplazar luego con portada real
     category: 'Gobernanza',
     downloadLink: 'https://www.editoracientifica.com.br/books/gobernanza-justicia-y-desarrollo-en-territorios-amazonicos-estudios-multidisciplinarios-desde-la-universidad-amazonica-de-pando'
   },
@@ -18,7 +18,7 @@ const FEATURED_BOOKS = [
     author: 'Universidad Amazónica de Pando',
     year: 2026,
     pages: 280,
-    cover: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=600&auto=format&fit=crop',
+    cover: '/images/socioeconomia.png',
     category: 'Socioeconomía',
     downloadLink: 'https://www.editoracientifica.com.br/books/dinamicas-socioambientales-legales-y-economicas-en-la-triple-frontera-madre-de-dios-peru-acre-brasil-y-pando-bolivia'
   },
@@ -27,7 +27,7 @@ const FEATURED_BOOKS = [
     author: 'Universidad Amazónica de Pando',
     year: 2026,
     pages: 410,
-    cover: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=600&auto=format&fit=crop',
+    cover: '/images/medioambiente.png',
     category: 'Medio Ambiente',
     downloadLink: 'https://www.editoracientifica.com.br/books/bosque-amazonico-en-la-encrucijada-del-siglo-xxi-crisis-climatica-gobernanza-crimen-ambiental-y-tecnologias-para-el-futuro'
   },
@@ -36,7 +36,7 @@ const FEATURED_BOOKS = [
     author: 'Universidad Amazónica de Pando',
     year: 2025,
     pages: 320,
-    cover: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=600&auto=format&fit=crop',
+    cover: '/images/biodiversidad.png',
     category: 'Biodiversidad',
     downloadLink: 'https://www.editoracientifica.com.br/books/desarrollo-sostenible-y-biodiversidad-en-pando-estudios-sobre-euterpe-precatoria-mart-agricultura-y-socioeconomia'
   }
