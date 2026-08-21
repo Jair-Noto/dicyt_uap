@@ -18,7 +18,7 @@ export const Footer = () => {
             <Link href="/" className="flex items-center gap-3 mb-6 group">
               <div className="relative w-22 h-22 flex-shrink-0">
                 <Image 
-                  src="/images/logo-uap.jpg" 
+                  src="/images/logo-uap.png" 
                   alt="Escudo UAP" 
                   fill
                   className="object-contain"
@@ -28,7 +28,7 @@ export const Footer = () => {
               <div className="h-8 w-px bg-slate-700 mx-1"></div>
               <div className="relative w-22 h-22 flex-shrink-0">
                 <Image 
-                  src="/images/logo_DICyT.jpg" 
+                  src="/images/logo_DICyT.png" 
                   alt="Logo DICyT" 
                   fill
                   className="object-contain"
