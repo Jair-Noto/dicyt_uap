@@ -8,7 +8,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2026,
     pages: 350,
-    cover: '/images/libro.png', // Reemplazar luego con portada real
+    cover: '/images/libro.jpg', // Reemplazar luego con portada real
     category: 'Gobernanza',
     downloadLink: 'https://www.editoracientifica.com.br/books/gobernanza-justicia-y-desarrollo-en-territorios-amazonicos-estudios-multidisciplinarios-desde-la-universidad-amazonica-de-pando'
   },
@@ -17,7 +17,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2026,
     pages: 280,
-    cover: '/images/socioeconomia.png',
+    cover: '/images/socioeconomia.jpg',
     category: 'Socioeconomía',
     downloadLink: 'https://www.editoracientifica.com.br/books/dinamicas-socioambientales-legales-y-economicas-en-la-triple-frontera-madre-de-dios-peru-acre-brasil-y-pando-bolivia'
   },
@@ -26,7 +26,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2026,
     pages: 410,
-    cover: '/images/medioambiente.png',
+    cover: '/images/medioambiente.jpg',
     category: 'Medio Ambiente',
     downloadLink: 'https://www.editoracientifica.com.br/books/bosque-amazonico-en-la-encrucijada-del-siglo-xxi-crisis-climatica-gobernanza-crimen-ambiental-y-tecnologias-para-el-futuro'
   },
@@ -35,7 +35,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2025,
     pages: 320,
-    cover: '/images/biodiversidad.png',
+    cover: '/images/biodiversidad.jpg',
     category: 'Biodiversidad',
     downloadLink: 'https://www.editoracientifica.com.br/books/desarrollo-sostenible-y-biodiversidad-en-pando-estudios-sobre-euterpe-precatoria-mart-agricultura-y-socioeconomia'
   },
@@ -44,7 +44,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2024,
     pages: 245,
-    cover: '/images/derecho.png',
+    cover: '/images/derecho.jpg',
     category: 'Derecho y Educación',
     downloadLink: 'https://www.editoracientifica.com.br/books/visiones-contemporaneas-derecho-educacion-e-investigacion'
   },
@@ -53,7 +53,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2024,
     pages: 310,
-    cover: '/images/ingenieria.png',
+    cover: '/images/ingenieria.jpg',
     category: 'Ingeniería',
     downloadLink: 'https://www.editoracientifica.com.br/books/ingenieria-y-tecnologia-aportes-y-avances-en-los-ultimos-tempos'
   },
@@ -62,7 +62,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2023,
     pages: 290,
-    cover: '/images/medioambiente_1.png',
+    cover: '/images/medioambiente_1.jpg',
     category: 'Medio Ambiente',
     downloadLink: 'https://www.editoracientifica.com.br/books/isbn/978-65-5360-307-3'
   },
@@ -71,7 +71,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2023,
     pages: 275,
-    cover: '/images/salud.png',
+    cover: '/images/salud.jpg',
     category: 'Salud',
     downloadLink: 'https://www.editoracientifica.com.br/books/de-la-teoria-a-la-practica-experiencias-y-aplicaciones-en-salud'
   },
@@ -80,7 +80,7 @@ const ALL_BOOKS = [
     author: 'Edición Institucional',
     year: 2023,
     pages: 330,
-    cover: '/images/economia.png',
+    cover: '/images/economia.jpg',
     category: 'Economía',
     downloadLink: 'https://www.editoracientifica.com.br/books/isbn/978-65-5360-306-6'
   }
