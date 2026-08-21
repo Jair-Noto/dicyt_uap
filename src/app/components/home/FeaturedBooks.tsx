@@ -9,7 +9,7 @@ const FEATURED_BOOKS = [
     author: 'Universidad Amazónica de Pando', // Ajustar con el organizador real
     year: 2026,
     pages: 350, // Dato temporal
-    cover: '/images/libro.png', // Reemplazar luego con portada real
+    cover: '/images/libro.jpg', // Reemplazar luego con portada real
     category: 'Gobernanza',
     downloadLink: 'https://www.editoracientifica.com.br/books/gobernanza-justicia-y-desarrollo-en-territorios-amazonicos-estudios-multidisciplinarios-desde-la-universidad-amazonica-de-pando'
   },
@@ -18,7 +18,7 @@ const FEATURED_BOOKS = [
     author: 'Universidad Amazónica de Pando',
     year: 2026,
     pages: 280,
-    cover: '/images/socioeconomia.png',
+    cover: '/images/socioeconomia.jpg',
     category: 'Socioeconomía',
     downloadLink: 'https://www.editoracientifica.com.br/books/dinamicas-socioambientales-legales-y-economicas-en-la-triple-frontera-madre-de-dios-peru-acre-brasil-y-pando-bolivia'
   },
@@ -27,7 +27,7 @@ const FEATURED_BOOKS = [
     author: 'Universidad Amazónica de Pando',
     year: 2026,
     pages: 410,
-    cover: '/images/medioambiente.png',
+    cover: '/images/medioambiente.jpg',
     category: 'Medio Ambiente',
     downloadLink: 'https://www.editoracientifica.com.br/books/bosque-amazonico-en-la-encrucijada-del-siglo-xxi-crisis-climatica-gobernanza-crimen-ambiental-y-tecnologias-para-el-futuro'
   },
@@ -36,7 +36,7 @@ const FEATURED_BOOKS = [
     author: 'Universidad Amazónica de Pando',
     year: 2025,
     pages: 320,
-    cover: '/images/biodiversidad.png',
+    cover: '/images/biodiversidad.jpg',
     category: 'Biodiversidad',
     downloadLink: 'https://www.editoracientifica.com.br/books/desarrollo-sostenible-y-biodiversidad-en-pando-estudios-sobre-euterpe-precatoria-mart-agricultura-y-socioeconomia'
   }
